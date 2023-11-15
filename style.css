@@ -1,4 +1,3 @@
-
 .bank {
     display: flex;
 
@@ -6,9 +5,9 @@
 }
 
 li {
-    width: 147px;
+    width: 142px;
     height: 19px;
-    font-size: 21px;
+    font-size: 20px;
     text-align: center;
     margin-left: 25px;
 
@@ -30,11 +29,11 @@ h2 {
     margin: auto;
     margin-left: 580px;
     margin-top: 95px;
-    color: blueviolet;
+    color: black;
     font-size: 30px;
 }
 
- button {
+button {
     margin-left: -8px;
     background-color: white;
     border: 1px grey solid;
@@ -42,44 +41,53 @@ h2 {
     color: gray;
     justify-content: space-between;
 }
-.smal-big{
+
+.smal-big {
     display: flex;
     justify-content: space-evenly;
 }
-.money1{
+
+.money1 {
     margin-top: 70px;
     padding: 42px;
 }
-.money2{
+
+.money2 {
     margin-top: 70px;
     padding: 42px;
 }
-.inp1{
+
+.inp1 {
     border: 0;
     outline: none;
-    
+
     height: 55px;
     width: 181px;
     margin: 20px;
 }
-.inp2{
+
+.inp2 {
     border: 0;
     outline: none;
     height: 55px;
     width: 181px;
     margin: 20px;
 }
-#usd{
-    background-color: blueviolet;
-    color: white;
-}
-#rubl{
-    background-color: blueviolet;
-    color: white;
-}
-.bank{
+
+/* .bank{
 background-color: gray;
-}
-.hi{
+} */
+.hi {
     border: 1px solid black;
+}
+
+.active {
+    background-color: purple;
+    color: white;
+}
+
+.one.active,
+.two.active {
+    background-color: purple;
+    color: white;
 }
