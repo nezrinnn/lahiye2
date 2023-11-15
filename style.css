@@ -1,0 +1,85 @@
+
+.bank {
+    display: flex;
+
+    height: 15px;
+}
+
+li {
+    width: 147px;
+    height: 19px;
+    font-size: 21px;
+    text-align: center;
+    margin-left: 25px;
+
+}
+
+.list {
+    list-style-type: none;
+    width: 98%;
+    height: 30px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    background-color: #F5F5F6;
+
+}
+
+h2 {
+    margin: auto;
+    margin-left: 580px;
+    margin-top: 95px;
+    color: blueviolet;
+    font-size: 30px;
+}
+
+ button {
+    margin-left: -8px;
+    background-color: white;
+    border: 1px grey solid;
+    font-size: 22px;
+    color: gray;
+    justify-content: space-between;
+}
+.smal-big{
+    display: flex;
+    justify-content: space-evenly;
+}
+.money1{
+    margin-top: 70px;
+    padding: 42px;
+}
+.money2{
+    margin-top: 70px;
+    padding: 42px;
+}
+.inp1{
+    border: 0;
+    outline: none;
+    
+    height: 55px;
+    width: 181px;
+    margin: 20px;
+}
+.inp2{
+    border: 0;
+    outline: none;
+    height: 55px;
+    width: 181px;
+    margin: 20px;
+}
+#usd{
+    background-color: blueviolet;
+    color: white;
+}
+#rubl{
+    background-color: blueviolet;
+    color: white;
+}
+.bank{
+background-color: gray;
+}
+.hi{
+    border: 1px solid black;
+}
